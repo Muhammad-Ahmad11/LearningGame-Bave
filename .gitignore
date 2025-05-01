@@ -1,0 +1,53 @@
+# ========================================
+# Android Studio & Kotlin Project .gitignore
+# ========================================
+
+# Gradle files
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Log/Crash files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Keystore files (sensitive)
+*.jks
+*.keystore
+*.pem
+
+# Kotlin specific
+*.class
+*.kt~ 
+*.kts~ 
+
+# Other cache/output
+captures/
+.externalNativeBuild/
+
+# NDK builds
+.cxx/
+
+# Google Services (if not using GitHub secrets)
+google-services.json
+firebase.json
+
+# Packaging
+*.apk
+*.ap_
+
+# Misc
+output.json
